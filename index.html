@@ -12,9 +12,11 @@
 <body>
 
     <div id="main-container" class="main_container">
-        <div class="title">
-            <h1>2 Player Turn Based Tic Tac Toe</h1>
-        </div>
+        <center>
+            <div class="title">
+                <h1>2 Player Turn Based Tic Tac Toe</h1>
+            </div>
+        </center>
         <div class="play_container">
             <!-- Main TIC TAC TOE BOARD -->
             <div class="column1">
@@ -34,17 +36,19 @@
             </div>
         </div>
 
+        <center>
 
-        <div class="player__info">
-            <div class="player_turn" id="whose-turn">
+            <div class="player__info">
+                <div class="player_turn" id="whose-turn">
+                </div>
+
+                <div class="winner">
+                    <h3 id="winner"></h3>
+                </div>
+
+                <button class="retry" id="retry" onclick="window.location.reload(true);"> Retry</button>
             </div>
-
-            <div class="winner">
-                <h3 id="winner"></h3>
-            </div>
-
-            <button class="retry" id="retry" onclick="window.location.reload(true);"> Retry</button>
-        </div>
+        </center>
         
 
     </div>
